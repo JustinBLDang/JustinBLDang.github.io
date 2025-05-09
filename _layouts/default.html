@@ -26,15 +26,6 @@
         {% if site.github.is_user_page %}
         <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
         {% endif %}
-
-        <ol style="list-style-type: none;">
-          {% for page in site.pages %}
-          <li>
-            {% comment %} <a href="./{{page[0]}}" title="{{page[1]}}"></a> {% endcomment %} 
-            page
-          </li>
-          {%endfor%}
-        </ol>
       </header>
       <section>
 
