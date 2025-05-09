@@ -27,14 +27,14 @@
         <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
         {% endif %}
 
-        <ul style="list-style-type: none;">
+        <ol style="list-style-type: none;">
           {% for page in site.pages %}
           <li>
             {% comment %} <a href="./{{page[0]}}" title="{{page[1]}}"></a> {% endcomment %} 
-            test
+            page
           </li>
           {%endfor%}
-        </ul>
+        </ol>
       </header>
       <section>
 
