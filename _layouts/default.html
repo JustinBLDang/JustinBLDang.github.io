@@ -35,7 +35,7 @@
           {% for page in site.pages %}
           <li>
             {% comment %} <a href="./{{page[0]}}" title="{{page[1]}}"></a> {% endcomment %} 
-            {{page}}
+            <span>{{page[0]}}</span>
           </li>
           {%endfor%}
         </ol>
